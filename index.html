@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <div class="main">
+        <h1 class="tag"> ROLL THE DICE </h1>
+        <p class="tag2" id="message1" > Selected variable : 0 </p>
+        <p  class="tag3" id="message2"> Score : 0 </p>
+          <img src="1.png" alt="" id="img">
+          <div>
+            
+            <div id="p">
+            
+        
+              <!-- create button and assign value to each button -->
+              <!-- dis("1") will call function dis to display value -->
+              <input class="td1" type="button" value="1" onclick="guess"/>
+              <input  class="td2" type="button" value="2" onclick="guess"/>
+              <input  class="td3" type="button" value="3" onclick="guess"/> 
+              <div>
+                <input  class="td4" type="button" value="4" onclick="guess"/>
+                <input class="td5" type="button" value="5" onclick="guess"/> 
+                <input class="td6" type="button" value="6" onclick="guess"/>
+              </div>
+    
+          
+      
+          </div>
+          <button id="btn" onclick="guessNumber()"> PLAY </button>
+          <div class="tir">The dice will be change in <span id="time">03</span> minutes!</div>
+      </div>
+      <div>
+        <p id="message1" >  </p>
+      </div>
+
+      <script src="app.js"></script>
+  </body>
+</html>
